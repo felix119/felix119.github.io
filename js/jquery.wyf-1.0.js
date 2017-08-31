@@ -84,7 +84,7 @@
             }
         },
         /**
-         *
+         *  时间格式化
          *  <code>
          *      var GET = $.myTime.CurTime(); //获取当前时间戳
          *  </code>
