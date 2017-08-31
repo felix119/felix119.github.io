@@ -1,0 +1,24 @@
+/* Webfont: MicrosoftYaHei-Regular */
+@font-face {
+    font-family: 'MicrosoftYaHei';
+    src: url('../font/MicrosoftYaHei-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../font/MicrosoftYaHei-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/MicrosoftYaHei-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../font/MicrosoftYaHei-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../font/MicrosoftYaHei-Regular.svg#MicrosoftYaHei-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'MicrosoftYaHei-Bold';
+    src: url('../font/MicrosoftYaHei-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../font/MicrosoftYaHei-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/MicrosoftYaHei-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../font/MicrosoftYaHei-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../font/MicrosoftYaHei-Bold.svg#MicrosoftYaHei-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

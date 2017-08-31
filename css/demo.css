@@ -1,0 +1,4 @@
+@charset "UTF-8";
+@import "base.css";
+
+.body{ max-width: 1000px; margin: 0px auto;  }

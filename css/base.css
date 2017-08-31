@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url("FontMicrosoftYaHei.css");
+
+html,body{ min-height: 100%; width: 100%;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,
+form,fieldset,legend,button,input,textarea,th,td,section,p,span,font,div{margin:0;padding:0;font-family:"Microsoft yahei","MicrosoftYaHei";color:#333;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:"Microsoft yahei","MicrosoftYaHei";}
+small{font-size:12px;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color: #333;}
+a:hover{text-decoration: underline;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:#000;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+
+/*##################################################    自适应    ##################################################*/
+@media screen and (min-width:960px){ html,body{font-size:12px;} }
+@media screen and (min-width:750px) and (max-width:960px){ html,body{font-size:18px;} }
+@media screen and (min-width:450px) and (max-width:750px){ html,body{font-size:16px;} }
+@media screen and (min-width:400px) and (max-width:450px){ html,body{font-size:14px;} } /*##  iphone6P 414 ##*/
+@media screen and (min-width:350px) and (max-width:400px){ html,body{font-size:14px;} } /*##  iphone6 375 ##*/
+@media screen and (max-width:350px){                       html,body{font-size:10px;} } /*##  iphone5 ##*/
+
+/*##################################################     排版     #################################################*/
+.box{ display: inline-table; width: 100%; text-align: center; line-height: 2.2rem; overflow: hidden; }
+.box_item{display: table-cell; overflow: hidden; vertical-align: middle;}
+/*##################################################     字体     #################################################*/
+.text-left{ text-align: left;}
+.text-right{ text-align: right;}
+.text_center{ text-align: center;}
+
+/*##################################################     特效     #################################################*/
+.hide{ display: none; }
+.show{ display: block;}
+
+/*##################################################     控件     #################################################*/
+/*单选滑动*/
+.radio_slide{ display: inline-block; position: relative; border-radius: 1rem; border: 1px solid #999; width: 3rem; height: 1.3rem; text-align: left;  line-height: 1.3rem; cursor: pointer;  }
+.radio_slide i{ display: inline-block; position: absolute; top:-1px; right: 1.7rem; border-radius: 1rem; border: 1px solid #999; width: 1.3rem; height: 1.3rem; background: #fff;  }
+.radio_slide.xz{ border: 1px solid #0181ff; background: #0181ff; position: relative;  width: 3rem; }
+.radio_slide.xz i{ position: absolute; top:-1px; right:-1px; border: 1px solid #0181ff;    }
+.radio_slide input{ display: none;}
+/*复选滑动*/
+.checkbox_slide{ display: inline-block; position: relative; border-radius: 1rem; border: 1px solid #999; width: 3rem; height: 1.3rem; text-align: left;  line-height: 1.3rem; cursor: pointer;  }
+.checkbox_slide i{ display: inline-block; position: absolute; top:-1px; right: 1.7rem; border-radius: 1rem; border: 1px solid #999; width: 1.3rem; height: 1.3rem; background: #fff;  }
+.checkbox_slide.xz{ border: 1px solid #0181ff; background: #0181ff; position: relative;  width: 3rem; }
+.checkbox_slide.xz i{ position: absolute; top:-1px; right:-1px; border: 1px solid #0181ff;    }
+.checkbox_slide input{ display: none;}
+
+/*##################################################     字体颜色     #################################################*/
+.color_warning{ color: #ff8202;}
+.color_orange{ color: #ff8202;}
+
+/*##################################################     按钮     #################################################*/
+button.next{ background: #0181ff; color: #fff; display: inline-block; width: 100%; height: 100%;}
+
+/*##################################################     宽度     #################################################*/
+.width_25{ width: 25%;  }
+.width_50{ width: 50%; }
+.width_55{ width: 55%; }
